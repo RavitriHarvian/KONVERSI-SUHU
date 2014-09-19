@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int C;
+int F;
+int R;
+printf("\t\t\t   PROGRAM KONVERSI SUHU CELCIUS\n");
+printf("\t\t\t      RAVITRI HARVIAN\n");
+printf("\t\t\tCELCIUS >>===> FAHRENHEIT dan REAMUR\n");
+printf("\t\t\t====================================\n");
+printf("\t\t\t      BISMILLAHIRRAHMANIRRAHIM\n");
+printf("Masukkan temperatur dalam derajat Celcius guys :D lalu Enter : ");
+scanf("%d", &C);
+F = (C*1.8)+32;
+R = (C*0.8);
+printf("%d derajat Celcius = %d derajat Fahrenheit.\n",C,F);
+printf("%d derajat Celcius = %d derajat Reamur.\n",C,R);
+getch();
+return 0;
+}
